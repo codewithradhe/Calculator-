@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./akastsuki\ cloud.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1{
+    color: white;
+    font-size: 4em;
+    line-height: 1.5;
+}
+.calculator{
+    padding: 20px ;
+    border-radius: 36px;
+    background: url("./itachi.png");
+    background-size: cover;
+    background-position: center center;
+    box-shadow: -8px -8px 15px rgba(116, 83, 111, 0.425),5px 5px 15px rgba(255, 3, 3, 0.692);;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 9, 222, 0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background:rgb(194, 157, 157,0.7);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+form .Display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .Display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    
+}
+#equal{
+    width: 125px;
+}
+form #btn-color{
+    color: rgb(243, 18, 18);
+}
+ .hover:hover {
+    background-color: rgb(10, 10, 10);
+   transition: all ease-in-out 0.8s;
+    
+  }
+
+  .social-media{
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    bottom: 5rem;
+
+  }
+
+  .social-media .fa{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+    text-decoration: none;
+    color: rgb(221, 215, 215);
+    font-size: xx-large;
+    
+  }
